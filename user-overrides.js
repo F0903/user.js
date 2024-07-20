@@ -1,5 +1,4 @@
 user_pref("browser.startup.page", 3); //102
-user_pref("privacy.clearOnShutdown.history", false); // 2811
 
 user_pref("privacy.resistFingerprinting", false); // 4501
 user_pref("privacy.resistFingerprinting.letterboxing", false); // 4504 [pointless if not using RFP]
