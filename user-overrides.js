@@ -24,8 +24,9 @@ user_pref("network.http.windows-sso.enabled", true);
 user_pref("browser.cache.disk.enable", true);
 user_pref("toolkit.winRegisterApplicationRestart", true);
 
-user_pref("privacy.clearOnShutdown.formdata", false);
-user_pref("privacy.clearOnShutdown.history", false);
-user_pref("privacy.clearOnShutdown.sessions", false);
-user_pref("privacy.clearOnShutdown.openWindows", false);
-user_pref("privacy.clearOnShutdown.cookies", false);
+user_pref("privacy.clearOnShutdown.cache", false); // [DEFAULT: true]
+user_pref("privacy.clearOnShutdown_v2.cache", false); // [FF128+] [DEFAULT: true]
+user_pref("privacy.clearOnShutdown.downloads", false); // [DEFAULT: true]
+user_pref("privacy.clearOnShutdown.formdata", false); // [DEFAULT: true]
+user_pref("privacy.clearOnShutdown.history", false); // [DEFAULT: true]
+user_pref("privacy.clearOnShutdown_v2.historyFormDataAndDownloads", false); // [FF128+] [DEFAULT: true]
